@@ -5,7 +5,7 @@ This tool renames all files underneath the specified Root Folder as follow: If t
 
 ![image](https://user-images.githubusercontent.com/98264396/180599535-025eb5c0-7804-4532-a0bb-bedc3b1ef295.png)
 # Instructions:
-1. Copy & Paste the Root Path (that's the path to the folder where all your files which you wish to rename sit.
+1. Copy & Paste the path where all your files sit to the Root Path field.
 2. Enter the Original String (Example: "REPLACE_ME").
 3. Enter the Replacement String (Example: "Year 2022").
 4. Press "Go".
