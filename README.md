@@ -13,6 +13,9 @@ Thereafter all files which contain the substring "REPLACE_ME" will be changed to
 Example:
    A File with the original name "Anual Report REPLACE_ME.pptx" will be renamed to "Anual Report Year 2022.pptx"
 
+# Installation
+No real installation is required. Just run the EXE file.
+
 # Hint
 Currently, the tool does NOT check the Replacement String for invalid Characters (such as '*', '?', ...). The user shall ensure that the Replacement String contains only valid characters which can be in a filename. I will fix this in the next version :-)
 
