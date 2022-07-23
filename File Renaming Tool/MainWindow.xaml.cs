@@ -66,6 +66,21 @@ namespace File_Renaming_Tool
         }
         private void Rename(string root, string origName, string replaceName)
         {
+            char [] invalidChars = System.IO.Path.GetInvalidFileNameChars();
+            if (replaceName.IndexOfAny(invalidChars) >= 0)
+            {
+                Log("Replacement Name contains invalid characters. ");
+                Log("ABANDONED. ");
+                return;
+            }
+
+            if (replaceName == null || replaceName.Length == 0)
+            {
+                Log("Replacement Name must not be empty. ");
+                Log("ABANDONED. ");
+                return;
+            }
+
             if (origName == null || origName.Length == 0)
             {
                 Log("Original Name must not be empty. ");
