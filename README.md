@@ -11,7 +11,7 @@ This tool renames all files underneath the specified Root Folder as follow: If t
 4. Press "Go".
 Thereafter all files which contain the substring "REPLACE_ME" will be changed to "Year 2022".
 Example:
-   A File with the original name "Anual Report REPLACE_ME.pptx" will be renamed to "Anual Report Year 2022.pptx"
+   A File with the original name "Annual Report REPLACE_ME.pptx" will be renamed to "Annual Report Year 2022.pptx"
 
 # Installation
 No real installation is required. Just run the EXE file.
