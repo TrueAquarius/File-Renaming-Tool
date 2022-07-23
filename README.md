@@ -15,4 +15,6 @@ Example:
 
 # Hint
 Currently, the tool does NOT check the Replacement String for invalid Characters (such as '*', '?', ...). The user shall ensure that the Replacement String contains only valid characters which can be in a filename. I will fix this in the next version :-)
+
+
 Enjoy it!
